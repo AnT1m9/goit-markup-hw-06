@@ -999,6 +999,7 @@ display: block;
     border 250ms cubic-bezier(0.4, 0, 0.2, 1); 
     padding-left: 16px;
     outline: none;
+    padding-left: 38px;
     
     
 }
@@ -1086,8 +1087,10 @@ color: var(--subtle-text);
 text-align: center;
 
 
+
 }
 .input-wrap{
+    padding-top: 4px;
 }
 
 .user-comment{
@@ -1128,10 +1131,7 @@ padding:8px 16px;
 .modal-comment:focus{
     border: 1px solid var(--primary-brand);
 }
-/*.modal-comment::placeholder{
-    padding-top: 8px;
-padding-left: 16px;
-}*/
+
 .checkbox{
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     color: transparent;
@@ -1181,6 +1181,7 @@ outline: none;
     text-decoration: underline ;
 }
 .accepted-check{
+    outline: none;
 }
 .accepted-check::before{
     background-image: url(../images/vector.jpg);
@@ -1198,7 +1199,7 @@ outline: none;
 .subscribe-box{
     
     margin-left: 80px;
-    margin-right: 24px;
+    
 }
 .subscribe-title{
     font-family: var(--main-font);
@@ -1220,11 +1221,7 @@ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 border-radius: 4px;
 }
 
-.footer-wrap{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
+
 .send-subscribe{
 padding: 8px 24px;
 }
@@ -1270,14 +1267,21 @@ flex-direction: row;
 justify-content: center;
 align-items: center;
 }
+.subscribe-button:hover {
+    background-color: var(--primary-focus);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    
+}
+.subscribe-button:focus {
+    background-color: var(--primary-focus); 
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
 .subscribe-icon{
     fill: #FFFFFF;
     margin-left: 16px;
     overflow: hidden;
     top: 50%;
-    right: 16px;
-    transform: translateY(-50%);
-    display: flex;
+    right: 16px;display: flex;
     align-items: center;
     justify-content: center; 
 }
