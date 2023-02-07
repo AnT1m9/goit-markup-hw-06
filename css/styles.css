@@ -1261,11 +1261,12 @@ line-height: 1.5;
 align-items: center;
 text-align: center;
 letter-spacing: 0.04em;
-
-
 flex-direction: row;
 justify-content: center;
 align-items: center;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 .subscribe-button:hover {
     background-color: var(--primary-focus);
