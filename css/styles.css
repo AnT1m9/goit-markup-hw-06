@@ -979,6 +979,7 @@ display: block;
 }
 .input-wrap{
     position: relative;
+    margin-top: 4px;
 }
 .modal-form{
     /*position: relative;*/
@@ -1086,12 +1087,8 @@ letter-spacing: 0.01em;
 color: var(--subtle-text);
 text-align: center;
 
-
-
 }
-.input-wrap{
-    padding-top: 4px;
-}
+
 
 .user-comment{
     position: absolute;
